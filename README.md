@@ -1,4 +1,4 @@
-         # How to correlate Umbrella Security Events with Meraki User
+### How to correlate Umbrella Security Events with Meraki User
   
 This repo contains a Python script that simplifies the correlation of all the Umbrella Security Events with Meraki users using API and sending the result to Splunk.
   
