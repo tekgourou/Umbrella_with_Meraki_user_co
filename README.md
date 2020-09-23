@@ -6,6 +6,9 @@ Please contact me at alexandre@argeris.net, if you have any questions or remarks
   
 ### VARIABLES TO MODIFY BEFORE RUNNING THE SCRIPT
 
+##UPDATE please import meraki==0.34
+##FIX fonction getshardurl
+
 ![image](./variables.png)
 
 ### EXAMPLE
