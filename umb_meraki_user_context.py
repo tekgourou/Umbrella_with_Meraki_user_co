@@ -29,15 +29,18 @@ def getshardurl(p_apikey, p_orgid):
     # when making API calls with API accounts that can access multiple orgs.
     # On failure returns 'null'
 
-    r = requests.get('https://dashboard.meraki.com/api/v0/organizations/%s/snmp' % p_orgid,
-                     headers={'X-Cisco-Meraki-API-Key': p_apikey, 'Content-Type': 'application/json'})
+    #r = requests.get('https://dashboard.meraki.com/api/v0/organizations/%s/snmp' % p_orgid,
+     #                headers={'X-Cisco-Meraki-API-Key': p_apikey, 'Content-Type': 'application/json'})
 
-    if r.status_code != requests.codes.ok:
-        return 'null'
+    #if r.status_code != requests.codes.ok:
+     #   return 'null'
 
-    rjson = r.json()
+    #rjson = r.json()
 
-    return (rjson['hostname'])
+    #return (rjson['hostname'])
+
+    #FIX
+    return ("api-mp.meraki.com")
 
 
 def getnwlist(p_apikey, p_shardurl, p_orgid):
