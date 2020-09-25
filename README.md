@@ -4,8 +4,6 @@ This repo contains a Python script that simplifies the correlation of all the Um
 
 ![image](./diagram.png)
 <br/>
-![image](./flow.png)
-<br/> 
 Please contact me at alexandre@argeris.net, if you have any questions or remarks. If you find any bugs, please report them to me, and I will correct them. 
   
 ### VARIABLES TO MODIFY BEFORE RUNNING THE SCRIPT
@@ -17,4 +15,4 @@ Please contact me at alexandre@argeris.net, if you have any questions or remarks
 
 ### EXAMPLE
 
-![image](./umb_meraki.png)
+![image](./flow.png)
